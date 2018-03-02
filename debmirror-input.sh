@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This is the configuration related to a Linux distribution. It must be loaded from a debmirror script.
+# This is the configuration related to a Linux distribution. It must be loaded from a debmirror script. See to which debmirror argument  the variables are passed to in the the debmirror script for a clear explanation.
 
 
 #Default
