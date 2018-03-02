@@ -4,13 +4,13 @@
 
 
 #Default
-raw_log_dir="/home/repo/mirror_logs"
-html_log_dir="/var/www/html/"
+raw_log_dir="/var/log/mirror_logs"
+html_log_dir="/var/www/html"
 
 #Specific
 arch="i386,amd64"
 method="http"
-destination="/var/mirror/"
+destination="/var/mirror"
 
 distro="ubuntu"
 remote_url="archive.ubuntu.com"
