@@ -7,6 +7,13 @@ function logger {
 	echo $(date) $1 >> $2
 }
 
+for i in $raw_log_dir $html_log_dir $destination; do
+	if [[ ! -e $i ]]; then
+		mkdir -p $i
+	fi
+done
+
+
 logger "---Begin Sync---" $log
 
 debmirror	--i18n \
