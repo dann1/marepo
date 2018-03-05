@@ -4,7 +4,7 @@ Frontend for debmirror. It allows to maintain a set of local repositories from s
 
 ## Usage
 
-- Install debmirror
+- Install debmirror and ccze
 - Run ***debmirror.sh*** with a ***debmirror-linux_distro.sh*** script as first argument.
     + Ex. **./debmirror.sh debmirror-ubuntu.sh**
 
