@@ -1,12 +1,13 @@
 #!/bin/bash
 
-source $1 # import configuration
+source $1 # import distro settings
 log=$raw_log_dir/$distro.log
 
 function logger {
 	echo $(date) $1 >> $2
 }
 
+# validate directory existance
 for i in $raw_log_dir $html_log_dir $destination; do
 	if [[ ! -e $i ]]; then
 		mkdir -p $i
