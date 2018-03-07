@@ -1,4 +1,4 @@
-# mirrorer
+# marepo
 
 Frontend for debmirror. It allows to maintain a set of local repositories from several Linux distributions in a simple way.
 
