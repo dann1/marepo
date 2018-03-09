@@ -6,6 +6,6 @@ Frontend for debmirror. It allows to maintain a set of local repositories from s
 
 - Install debmirror and ccze
 - Run ***debmirror.sh*** with a ***debmirror-linux_distro.sh*** script as first argument.
-    + Ex. **./debmirror.sh debmirror-ubuntu.sh**
+    + Ex. **./debmirror.sh ubuntu.conf**
 
-- Configure the debmirror-linux_distro.sh to your needs. It just stores configurations passed to ***debmirror.sh***
+- Configure the linux_distro.conf to your needs. It just stores configurations passed to ***debmirror.sh***
