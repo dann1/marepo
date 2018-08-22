@@ -1,14 +1,14 @@
 #!/bin/bash
 
 source $1 # import distro settings
-log=$raw_log_dir/$distro.log
+log=$log_dir/$distro.log
 
 function logger {
 	echo $(date) $1 >> $2
 }
 
 # validate directory existance
-for i in $raw_log_dir $html_log_dir $destination; do
+for i in $log_dir $destination; do
 	if [[ ! -e $i ]]; then
 		mkdir -p $i
 	fi
@@ -38,4 +38,4 @@ debmirror	--i18n \
 
 logger "--- End Sync ---" $log
 
-cat $log | ccze -h > $html_log_dir/$distro.html
+cat $log | ccze -h > $log_dir/$distro.html
